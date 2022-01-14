@@ -1,0 +1,136 @@
+{
+  "resultSet": [
+    {
+      "score": 6.652724,
+      "item": {
+        "sourceSystem": {
+          "code": "CRS",
+          "name": "Naturalis - Zoology and Geology catalogues"
+        },
+        "sourceSystemId": "ZMA.AVES.64706",
+        "id": "ZMA.AVES.64706@CRS",
+        "unitID": "ZMA.AVES.64706",
+        "unitGUID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.AVES.64706",
+        "sourceInstitutionID": "Naturalis Biodiversity Center",
+        "sourceID": "CRS",
+        "owner": "Naturalis Biodiversity Center",
+        "licenseType": "Copyright",
+        "license": "CC0 1.0",
+        "recordBasis": "PreservedSpecimen",
+        "kindOfUnit": "nest",
+        "collectionType": "Aves",
+        "preparationType": "not applicable",
+        "numberOfSpecimen": 1,
+        "fromCaptivity": false,
+        "objectPublic": true,
+        "gatheringEvent": {
+          "localityText": "Buitenzorg",
+          "gatheringPersons": [
+            {
+              "fullName": "van Meurs"
+            }
+          ]
+        },
+        "modified": "2018-10-08T11:26:33+0000",
+        "identifications": [
+          {
+            "taxonRank": "subspecies",
+            "scientificName": {
+              "fullScientificName": "Aegithinia tiphia scapularis",
+              "genusOrMonomial": "Aegithinia",
+              "specificEpithet": "tiphia",
+              "infraspecificEpithet": "scapularis",
+              "scientificNameGroup": "aegithinia tiphia scapularis"
+            },
+            "defaultClassification": {
+              "genus": "Aegithinia",
+              "specificEpithet": "tiphia",
+              "infraspecificEpithet": "scapularis"
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "score": 12.2284565,
+      "item": {
+        "sourceSystem": {
+          "code": "CRS",
+          "name": "Naturalis - Zoology and Geology catalogues"
+        },
+        "sourceSystemId": "ZMA.AVES.64848",
+        "id": "ZMA.AVES.64848@CRS",
+        "unitID": "ZMA.AVES.64848",
+        "unitGUID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.AVES.64848",
+        "sourceInstitutionID": "Naturalis Biodiversity Center",
+        "sourceID": "CRS",
+        "owner": "Naturalis Biodiversity Center",
+        "licenseType": "Copyright",
+        "license": "CC0 1.0",
+        "recordBasis": "PreservedSpecimen",
+        "kindOfUnit": "nest",
+        "collectionType": "Aves",
+        "title": "ZMA.AVES",
+        "preparationType": "air dried",
+        "fromCaptivity": false,
+        "objectPublic": true,
+        "multiMediaPublic": true,
+        "gatheringEvent": {
+          "country": "Netherlands",
+          "locality": "Netherlands, no further locality",
+          "localityText": "Nederland",
+          "gatheringPersons": [
+            {
+              "fullName": "Not stated"
+            }
+          ]
+        },
+        "modified": "2015-05-16T12:11:33+0000",
+        "identifications": [
+          {
+            "taxonRank": "species",
+            "scientificName": {
+              "fullScientificName": "sylvia hypola∩s",
+              "genusOrMonomial": "sylvia",
+              "specificEpithet": "hypola∩s",
+              "scientificNameGroup": "sylvia hypola∩s"
+            },
+            "defaultClassification": {
+              "genus": "sylvia",
+              "specificEpithet": "hypola∩s"
+            },
+            "vernacularNames": [
+              {
+                "name": "Spotvogel"
+              }
+            ],
+            "preferred": true
+          },
+          {
+            "taxonRank": "species",
+            "scientificName": {
+              "fullScientificName": "sylvia hypolaïs Vieillot, 1817",
+              "genusOrMonomial": "sylvia",
+              "specificEpithet": "hypolaïs",
+              "authorshipVerbatim": "Vieillot, 1817",
+              "scientificNameGroup": "sylvia hypolaïs"
+            },
+            "defaultClassification": {
+              "genus": "sylvia",
+              "specificEpithet": "hypolaïs"
+            },
+            "preferred": false
+          }
+        ],
+        "associatedMultiMediaUris": [
+          {
+            "accessUri": "https://medialib.naturalis.nl/file/id/ZMA.AVES.64848/format/large",
+            "format": "image/jpeg",
+            "variant": "ac:GoodQuality"
+          }
+        ]
+      }
+    }
+  ]
+}
