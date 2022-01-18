@@ -39,5 +39,6 @@ public class CordraService {
         log.error("Failed to insert OpenDS object: {}", cordraObject.attributes, e);
       }
     }
+    cordra.close();
   }
 }

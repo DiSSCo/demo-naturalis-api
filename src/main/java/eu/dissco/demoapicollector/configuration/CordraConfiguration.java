@@ -34,7 +34,7 @@ public class CordraConfiguration {
 
   @Bean
   ServiceInfo serviceInfo() {
-    return new ServiceInfo("0.NA/20.5000.1025");
+    return new ServiceInfo("20.5000.1025/service", "3.9.186.140", 9000);
   }
 
 }
