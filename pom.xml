@@ -71,11 +71,6 @@
 			<artifactId>doip-sdk</artifactId>
 			<version>${doip-sdk.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>net.cnri.cordra</groupId>
-			<artifactId>cordra-client</artifactId>
-			<version>${cordra-client.version}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
