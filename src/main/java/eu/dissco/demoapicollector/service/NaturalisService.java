@@ -29,9 +29,9 @@ public class NaturalisService {
   private final NaturalisClient client;
   private final NaturalisProperties properties;
 
-  public List<DarwinCore> getNaturalisData() {
+  public List<DarwinCore> getNaturalisData(int numberOfObjects) {
     log.info("Getting data from Naturalis API");
-    var query = buildSpecimenQuery();
+    var query = buildSpecimenQuery(numberOfObjects);
     log.info("With query: {}", query);
     var result = client.getSpecimen(URLEncoder.encode(query, StandardCharsets.UTF_8));
     var parsedObjects = new ArrayList<DarwinCore>();
@@ -74,9 +74,9 @@ public class NaturalisService {
     return images;
   }
 
-  private String buildSpecimenQuery() {
+  private String buildSpecimenQuery(int numberOfObjects) {
     var node = new JsonObject();
-    node.addProperty("size", properties.getRequestsize());
+    node.addProperty("size", numberOfObjects);
     var condition = new JsonObject();
     condition.addProperty(FIELD, properties.getField());
     condition.addProperty(OPERATOR, properties.getOperator());

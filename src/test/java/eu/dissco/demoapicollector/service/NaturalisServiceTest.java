@@ -41,7 +41,6 @@ class NaturalisServiceTest {
   @Test
   void testGetNaturalisData() throws IOException {
     // Given
-    given(properties.getRequestsize()).willReturn(2);
     given(properties.getField()).willReturn("kindOfUnit");
     given(properties.getOperator()).willReturn("EQUALS_IC");
     given(properties.getValue()).willReturn("nest");
@@ -50,7 +49,7 @@ class NaturalisServiceTest {
     var expected = expectedResult();
 
     // When
-    var result = service.getNaturalisData();
+    var result = service.getNaturalisData(2);
 
     // Then
     assertThat(result).isEqualTo(expected);
