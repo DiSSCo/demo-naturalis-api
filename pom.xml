@@ -11,7 +11,7 @@
 	<groupId>eu.dissco</groupId>
 	<artifactId>demo-performance-cordra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-api-collector</name>
+	<name>demo-performance-cordra</name>
 	<description>Demo project for testing the performance Rest and DOIP of Cordra</description>
 	<properties>
 		<java.version>17</java.version>
